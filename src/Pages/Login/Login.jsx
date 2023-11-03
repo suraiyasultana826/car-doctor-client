@@ -22,7 +22,7 @@ const Login = () => {
             const user = { email};
             navigate(location?.state ? location?.state : '/')
             // get access token
-            // axios.post('http://localhost:5200/jwt', user, {withCredentials:true})
+            // axios.post('https://car-doctor-server-chi-two.vercel.app/jwt', user, {withCredentials:true})
             // .then(res => {
             //     console.log(res.data);
             //     if(res.data.success){
